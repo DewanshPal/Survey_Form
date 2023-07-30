@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap');
+*{
+    margin:0;
+    padding:0;
+ }
+ body
+ {
+   width: 100%;
+   height: 100%;
+   font-family: 'Poppins', sans-serif;
+   color: white;
+   background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.5), rgba(136, 136, 206, 0.5) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+   /* background-color: rgb(5,90,150);  */
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+ }
+ #title{
+    margin-bottom: 1px;
+    margin-top:50px;
+    font-size: 32px;
+    font-weight:400;
+ }
+ #title,#description
+ {
+    text-align:center;
+ }
+ #description{
+    font-style:italic;
+    font-size: 18px;
+    font-weight:200;
+    margin-bottom: 30px;
+ }
+ form
+ {
+    margin:auto;
+    background-color:rgba(27, 27, 50, 0.8);
+    padding: 44px;
+    width:635px;
+    border-radius: 5px ;
+ }
+ p
+ {
+    font-size: 18px;
+    margin-bottom: 8px;
+ }
+ #name,#email,#number,#dropdown
+ {
+    width: 96%;
+    font-size: 16px;
+    padding:6px 12px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    margin-top:8px;
+ }
+ span{
+   font-size: 14px ;
+   vertical-align:middle;
+ }
+ #dropdown
+ {
+    width: 100%;
+ }
+ label,select
+ {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 24px;
+ }
+ .radio
+ {
+    margin-bottom: 6px;
+ }
+ input[type="radio"]
+ {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 6px;
+    margin-top:-5px;
+ }
+ #secondhalf{
+   margin-top: 33px;
+ }
+ input[type="checkbox"]
+ {
+   width: 20px;
+   height: 20px;
+   vertical-align: middle;
+    margin-right: 6px;
+    margin-top:-5px;
+ }
+ #checkbox label
+ {
+   margin-bottom: 8px;
+ }
+ label[for="comments"]
+ {
+   margin-top:30px;
+ }
+ textarea
+ {
+   padding: 10px;
+   font-size: 16px;
+   width: 96%;
+   font-family: 'Poppins', sans-serif;
+ }
+ button
+ {
+   font-size: 16px;
+   display: block;
+   width: 100%;
+   padding: 0.7rem;
+   background: rgb(55, 175, 101);
+   color: inherit;
+   border-radius: 2px;
+   border: none;
+   cursor: pointer;
+   font-family: 'Poppins', sans-serif;
+   margin-bottom: 20px;
+
+ }
